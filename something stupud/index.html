@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8"/>
+        <title>something something comics its, not comics its just cats</title>
+        <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+        <script src="./cat.js"></script>
+    </head>
+        <body>
+            <a-scene background="color:#d4244d">
+                <a-plane id="ground" color="#1c1c1c" width="200" height="100" rotation="-90 0 0 " ></a-plane>
+                <a-entity id="posterPlace" cat></a-entity>
+                <a-camera id="camera" wasd-controls="enabled:false" position="0 10 20"></a-camera>
+                <a-entity id="cameracursor"cursor position="0 10 19" geometry="primitive:ring;radiusInner:0.02;radiusOuter:0.03" material="color:orange;Shader:flat"></a-entity>
+                <a-entity id="appTitle" position="0 10 18" text="font:exo2bold;align:center;width:2;color:#000000;value: CATSSSSSSSSS" ></a-entity>
+                <a-entity id="appsubway" position="0 9 18" text="font:exo2bold;align:center;width:2;color:#ff0000;value: AAAAAAAAAAAAA"></a-entity>
+            </a-scene>
+        </body>
+
+</html>
